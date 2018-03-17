@@ -1,0 +1,27 @@
+{
+    "title": "Blog Coding Guide",
+    "description": "Coding a basic blog from static html to WordPress",
+    "author": "Steven Klein",
+    "language": "en",
+    "direction": "ltr",
+    "styles": {
+        "website": "_assets/styles/website.css",
+        "pdf": "_assets/styles/pdf.css"
+    },
+    "plugins": ["github", "toggle-chapters", "-sharing"],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/steven-klein/blog-guide/"
+        }
+    },
+    "pdf": {
+      "paperSize": "letter",
+      "margin": {
+        "top": 36,
+        "bottom": 36,
+        "right": 36,
+        "left": 36
+      }
+    },
+    "root": "./docs"
+}

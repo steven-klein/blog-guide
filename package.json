@@ -1,0 +1,37 @@
+{
+  "name": "blog-guide",
+  "version": "0.0.0",
+  "description": "Coding a basic blog from static html to WordPress",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "commit:web": "cd _book && git init && git add -A && git commit -m 'update book' && git push -f git@github.com:steven-klein/blog-guide.git master:gh-pages",
+    "dev": "run-s gitbook:install gitbook:serve",
+    "docs": "run-s gitbook:install gitbook:serve",
+    "gitbook:clean": "shx rm -rf _book",
+    "gitbook:install": "gitbook install",
+    "gitbook:pdf": "gitbook pdf ./ ./docs/_assets/downloads/blog-guide.pdf",
+    "gitbook:build": "gitbook build",
+    "gitbook:serve": "gitbook serve",
+    "pdf": "run-s gitbook:pdf",
+    "postversion": "git push && git push --tags",
+    "release": "run-s gitbook:clean gitbook:install gitbook:pdf gitbook:build commit:web && git add -A && git commit -m 'build release pdf' && npm version patch",
+    "test": "run-s gitbook:install gitbook:build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steven-klein/blog-guide.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "gitbook-cli": "^2.3.2",
+    "gitbook-plugin-chapter-headings": "^0.1.0",
+    "gitbook-plugin-github": "^2.0.0",
+    "gitbook-plugin-toggle-chapters": "0.0.3",
+    "npm-run-all": "^4.1.2",
+    "shx": "^0.2.2"
+  }
+}
