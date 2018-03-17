@@ -4,7 +4,7 @@
 
 ----
 
-* [2.) Static HTML](1/README.md)
+* [2.) Static HTML](1-static-html/README.md)
 
 ----
 
