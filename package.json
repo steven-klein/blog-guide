@@ -1,6 +1,6 @@
 {
   "name": "blog-guide",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Coding a basic blog from static html to WordPress",
   "main": "index.js",
   "directories": {
