@@ -1,10 +1,14 @@
 # Summary
 
-* [1.) Welcome](README.md)
+* [Welcome](README.md)
 
 ----
 
-* [2.) Static HTML](1-static-html/README.md)
+* [1.) Static HTML](1-static-html/README.md)
+
+----
+
+* [2.) Static HTML + Assets Workflow](2-static-html-with-assets-workflow/README.md)
 
 ----
 

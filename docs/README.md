@@ -2,4 +2,4 @@
 
 Coding a basic blog from static html to WordPress
 
-{% include "./rocket.md" %}
+{% include "./skeleton.md" %}
