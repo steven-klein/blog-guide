@@ -8,12 +8,16 @@
 
 ----
 
-* [2.) Static HTML + Assets Workflow](2-static-html-with-assets-workflow/README.md)
+* [2.) Basic PHP Templating](2-basic-php-templating/README.md)
 
 ----
 
-* [Glossary](GLOSSARY.md)
+* [3.) Basic PHP Form Handling](3-basic-php-form-handling/README.md)
 
 ----
 
-* [Downloads](DOWNLOADS.md)
+* [4.) JS Form Validation](4-js-form-validation/README.md)
+
+----
+
+* [5.) Asset Bundling w/Live Reloading](5-asset-bundling-live-reload/README.md)

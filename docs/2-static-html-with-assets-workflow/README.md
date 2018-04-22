@@ -1,1 +1,0 @@
-# Static HTML + Assets Workflow
